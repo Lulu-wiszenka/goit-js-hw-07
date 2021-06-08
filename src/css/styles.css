@@ -1,0 +1,51 @@
+a[href="index.html"] {
+  text-decoration: none;
+  color: rgb(42, 128, 128);
+}
+a[href="index.html"]:hover,
+a[href="index.html"]:focus {
+  color: rgb(0, 255, 255);
+}
+
+/* Zadanie 4 */
+[type="button"] {
+  display: inline-block;
+  width: 50px;
+  padding: 8px;
+
+  color: rgb(42, 128, 128);
+  background-color: rgb(0, 255, 255);
+  font-family: roboto;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  border: 2px solid rgb(42, 128, 128);
+  border-radius: 5px;
+}
+
+#value {
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  font-family: roboto;
+  color: rgb(42, 128, 128);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.875;
+}
+
+/*Zadanie 6*/
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
